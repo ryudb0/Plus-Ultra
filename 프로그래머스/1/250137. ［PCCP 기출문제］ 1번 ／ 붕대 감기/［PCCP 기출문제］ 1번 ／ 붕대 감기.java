@@ -32,9 +32,6 @@ class Solution {
             }
             health = tempHP;
 
-            if (health <= 0) {
-                return -1;
-            }
         }
         return health;
     }
